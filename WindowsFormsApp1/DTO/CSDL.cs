@@ -1,6 +1,7 @@
 using System;
 using System.Data.Entity;
 using System.Linq;
+using WindowsFormsApp1.DTO;
 
 namespace WindowsFormsApp1
 {
@@ -15,6 +16,7 @@ namespace WindowsFormsApp1
         public CSDL()
             : base("name=CSDL")
         {
+            Database.SetInitializer<CSDL>(new CreateDB());
         }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
