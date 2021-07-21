@@ -66,6 +66,10 @@
     <Compile Include="Migrations\202107211234552_first.Designer.cs">
       <DependentUpon>202107211234552_first.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202107211501255_deleterow.cs" />
+    <Compile Include="Migrations\202107211501255_deleterow.Designer.cs">
+      <DependentUpon>202107211501255_deleterow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202107211234552_first.resx">
       <DependentUpon>202107211234552_first.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107211501255_deleterow.resx">
+      <DependentUpon>202107211501255_deleterow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
